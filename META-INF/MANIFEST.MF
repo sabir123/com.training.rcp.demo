@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo
+Bundle-SymbolicName: com.training.rcp.demo;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TRAINING
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.apache.felix.scr,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event,
+ com.training.rcp.demo.view.plugin;bundle-version="1.0.0"
+Automatic-Module-Name: com.training.rcp.demo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
